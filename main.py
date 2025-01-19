@@ -10,7 +10,7 @@ except redis.ConnectionError as e:
 # Vazifa 1
 db.set("name", "Toxir")
 a = db.get("name")
-print(a.decode("utf-8"))  # Bajaring va "utf-8" ga o'giring
+print(a.decode("utf-8"))  
 
 # Vazifa 2
 if db.exists("name"):
